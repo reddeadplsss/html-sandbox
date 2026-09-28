@@ -25,6 +25,15 @@ section {
     padding: 20px;
 }
 
-:link {
+a:link {
     color: #d4af37;
 }
+
+a{
+    color:#d4af37
+}
+
+a:visited   {
+    color: #d4af37;
+}
+
