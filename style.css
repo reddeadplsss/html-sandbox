@@ -21,7 +21,8 @@ main{
 
 section {
     border: 5px solid #d4af37;
-    border-radius: 50px;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 
