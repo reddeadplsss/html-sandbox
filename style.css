@@ -7,3 +7,12 @@ body  {
 h1{
     color: #d4af37;
 }
+
+header {
+    text-align: center;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
