@@ -21,5 +21,7 @@ main{
 
 section {
     border: 5px solid #d4af37;
+    border-radius: 10px;
 }
+
 
