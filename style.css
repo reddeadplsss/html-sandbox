@@ -20,9 +20,10 @@ main{
 }
 
 section {
-    border: 5px solid #d4af37;
-    border-radius: 25px;
+    border: 3.5px solid #d4af37;
+    border-radius: 15px;
     padding: 20px;
+    background-color: #383838;
 }
 
 a:link {
@@ -36,4 +37,3 @@ a{
 a:visited   {
     color: #d4af37;
 }
-
