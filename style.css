@@ -17,15 +17,15 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 50px;
-    border: 3px solid #d4af37;
+    border: 3px ridge #d4af37;
     border-radius: 10px;
 }
 
 section {
-    border: 3.5px solid #d4af37;
-    border-radius: 15px;
-    padding: 20px;
-    background-color: #383838;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #252525;
 }
 
 a:link {
