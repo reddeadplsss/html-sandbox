@@ -1,111 +1,46 @@
-v:root {
-  --bg: #121212;
-  --bg-panel: #1d1d1d;
-  --bg-panel-alt: #242424;
-  --text: #f3f3f3;
-  --muted: #d6d6d6;
-  --accent: #d4af37;
-  --accent-strong: #f0c75e;
-  --border: rgba(212, 175, 55, 0.6);
+body  {
+    background-color: #171717;
+    color: white;
+    text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  background:
-    radial-gradient(circle at top, rgba(212, 175, 55, 0.12), transparent 30%),
-    var(--bg);
-  color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.7;
-}
-
-.page-shell {
-  width: min(100%, 980px);
-  margin: 0 auto;
-  padding: 40px 20px 80px;
+h1{
+    color: #d4af37;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 30px;
+    text-align: center;
 }
 
-.eyebrow {
-  margin: 0;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.72rem;
-  font-weight: bold;
-}
-
-h1 {
-  margin: 10px 0 0;
-  font-size: clamp(3rem, 7vw, 5rem);
-  color: var(--accent);
-  line-height: 1;
-}
-
-h2 {
-  margin: 8px 0 0;
-  font-size: clamp(1.2rem, 2vw, 1.8rem);
-  color: var(--muted);
-}
-
-main {
-  display: grid;
-  gap: 24px;
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    border: 12px ridge #d4af37;
+    border-radius: 10px;
 }
 
 section {
-  background: linear-gradient(180deg, var(--bg-panel), var(--bg-panel-alt));
-  border: 2px solid var(--border);
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
-  padding: 28px 30px;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #252525;
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-section h2 {
-  margin-top: 0;
-  margin-bottom: 18px;
-  color: var(--accent-strong);
-  font-size: 1.6rem;
+a:link {
+    color: #d4af37;
 }
 
-p {
-  margin: 0 0 1rem;
-  color: var(--text);
-  font-size: 1rem;
+a{
+    color:#d4af37
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-  transition: color 0.2s ease, opacity 0.2s ease;
+a:visited   {
+    color: #d4af37;
 }
 
-a:hover {
-  color: var(--accent-strong);
-  opacity: 0.9;
-}
-
-.social-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 10px;
-}
-
-.social-list li {
-  font-weight: 600;
-}
