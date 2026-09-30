@@ -32,6 +32,12 @@ section {
     margin-top: 50px;
 }
 
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 a:link {
     color: #d4af37;
 }
