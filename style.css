@@ -2,7 +2,14 @@ body {
     background-color: #080808;
     color: #eeeeee;
     text-align: center;
+    font-family: "DM Sans", sans-serif;
 }
+
+h1,
+h2{
+    font-family: "Space Grotesk", sans-serif;
+}
+
 
 h1 {
     color: #d4af37;
