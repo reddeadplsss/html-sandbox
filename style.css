@@ -13,6 +13,24 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.eyebrow {
+    color:#d4af37
+    text-transforms: uppercase;
+    letter-spacing: 4px;
+}
+
+header h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+
+
 main{
     max-width: 800px;
     margin: auto;
