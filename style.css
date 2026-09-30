@@ -21,6 +21,7 @@ header h1 {
     color: #d4af37;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: 15px;
 }
 
 header h2 {
@@ -32,8 +33,10 @@ main {
     max-width: 800px;
     margin: auto;
     padding: 50px;
-    border: 12px ridge #d4af37;
-    border-radius: 10px;
+    border: 1px solid #252525;
+    border-radius: 16px;
+    transition: transform 0.2 ease;
+    background: #111111;
 }
 
 section {
@@ -47,7 +50,7 @@ section {
 }
 
 section:hover {
-    transform: translateY(-8px);
+    transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 
