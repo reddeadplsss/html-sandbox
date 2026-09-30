@@ -29,15 +29,6 @@ header h2 {
     font-weight: normal;
 }
 
-main {
-    max-width: 800px;
-    margin: auto;
-    padding: 50px;
-    border: 1px solid #252525;
-    border-radius: 16px;
-    transition: transform 0.2 ease;
-    background: #111111;
-}
 
 section {
     background: #111111;
