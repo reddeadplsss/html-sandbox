@@ -76,6 +76,13 @@ a:link {
 
 a{
     color:#d4af37
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
 }
 
 a:visited   {
