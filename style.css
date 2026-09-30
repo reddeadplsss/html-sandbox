@@ -70,6 +70,11 @@ section {
     margin: 0;
 }
 
+a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+
 a:link {
     color: #d4af37;
 }
@@ -80,10 +85,7 @@ a{
     transition: color 0.2s ease;
 }
 
-a:hover{
-    color: #ffffff;
-    text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
-}
+
 
 a:visited   {
     color: #d4af37;
